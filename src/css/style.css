@@ -26,6 +26,11 @@ body {
     border-radius: 1em;
     background-color: #252625d1;
     backdrop-filter: blur(8px);
+    scrollbar-width: none;
+}
+
+#terminal::-webkit-scrollbar {
+    display: none;
 }
 
 .line {
